@@ -1,0 +1,9 @@
+//hecho por othoniel salas aparicio.
+ 
+ 
+import java.util.Scanner;
+public class vehiculo
+{
+    String tipo,capacidad,color,velocidad;
+    int precio;  
+    }

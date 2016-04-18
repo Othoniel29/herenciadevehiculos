@@ -1,0 +1,17 @@
+// hecho por othoniel salas aparicio.
+  
+
+public class barco extends acuatico
+{
+    String puerto;
+    
+   public barco(String tipo,String capacidad, String color, String velocidad,int precio,String puerto){
+    super (tipo, capacidad, color, velocidad, precio);
+    this.puerto =puerto;
+    }
+        @Override
+        public void verDatos(){
+            System.out.println(null, "tipo: " + tipo + "\ncapacidad: " + capacidad + "\ncolor: "+ color + "\nvelocidad: " + velocidad + "Datos del barco");
+        
+   }
+} 

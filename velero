@@ -1,0 +1,17 @@
+// hecho por othoniel salas aparicio.
+ 
+
+public class velero extends acuatico
+{
+    String playa;
+    
+   public velero(String tipo,String capacidad, String color, String velocidad,int precio,String puerto){
+    super (tipo, capacidad, color, velocidad, precio);
+    this.playa =playa;
+    }
+        @Override
+        public void verDatos(){
+            JoptionPane.ShowMessageDiaolog(null, "tipo: " + tipo + "\ncapacidad: " + capacidad + "\ncolor: "+ color + "\nvelocidad: " + velocidad + "Datos del barco");
+        
+   }
+} 

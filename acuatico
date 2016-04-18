@@ -1,0 +1,13 @@
+// hecho por othoniel salas aparicio.
+public class acuatico extends vehiculo
+{
+    public acuatico (String tipo,String capacidad, String color, String velocidad, int precio){
+        this.tipo =tipo;
+        this.capacidad =capacidad;
+        this.color =color;
+        this.velocidad =velocidad;
+        this.precio =precio;
+    }
+    public void verDatos(){
+    }
+}

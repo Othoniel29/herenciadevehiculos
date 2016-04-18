@@ -1,0 +1,16 @@
+//codigo echo por othoniel salas aparicio.
+import javax.Swing.JoptionPane;
+public class avion extends aereo
+{
+   int altura;
+   pubic avion(String tipo, String capacidad, String color, String velocidad, int precio ){
+        super (tipo, capacidad, color, velocidad, precio);
+        this.altura =altura;
+}
+
+
+ @Override
+ public void verDatos(){
+    JoptionPane.ShowMessageDiaolog(null, "tipo: " + tipo + "\ncapacidad: " + capacidad + "\ncolor: "+ color + "\nvelocidad: " + velocidad + "Datos del avion");
+}
+}
